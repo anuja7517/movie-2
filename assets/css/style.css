@@ -1,4 +1,11 @@
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.para{
+    background-color:rgb(241, 175, 189);
+}
 body{
     background-color: #ededed;
 } 
@@ -45,6 +52,13 @@ body{
     right: 15px;
     cursor:pointer;
 }
+
+.movieImg{
+    width: 100%;
+    height: 400px;
+     object-fit: cover;
+}
+
 
  @keyframes fade-slide-down {
 
